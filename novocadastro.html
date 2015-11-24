@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Guest List</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
+<link rel="stylesheet" href="assets/css/pure-min.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+<body>
+
+<header>
+	<h1><a href="index.html"><input type = "submit" value="Voltar"></a></h1>
+</header>
+
+
+<div class="y">
+          <img src="projeto2/img/y.png" alt="" height="120" width="100">
+   </div>
+   
+   <div class="p">
+       <img src="projeto2/img/p.png" alt="" height="120" width="100">
+       
+   </div>
+<form class="pure-form pure-form-aligned">
+	<fieldset>
+		<div class="pure-control-group">
+			<label for="name">Nome</label>
+			<input id="name" type="text" placeholder="Username" required>
+		</div>
+
+		<div class="pure-control-group">
+			<label for="email">Email</label>
+			<input id="email" type="email" placeholder="Email Address" required>
+		</div>
+		
+		<div class="pure-controls">
+			<button type="submit" class="pure-button pure-button-primary">Submit</button>
+			
+		</div>
+	</fieldset>
+</form>
+
+<section id="guestList">
+
+</section>
+
+<script src="assets/js/libs/jquery.min.js"></script>
+<script src="assets/js/libs/md5.min.js"></script>
+<script src="assets/js/GuestService.js"></script>
+<script src="assets/js/GuestController.js"></script>
+
+</body>
+</html>
